@@ -1,1 +1,0 @@
-D ua/privatbank/core/utils/FileUtils$ImageValidationErrorCode
