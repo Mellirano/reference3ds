@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.3" type="conditional_incidents">
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/drawable/ic_eds_progress.xml"
+            line="1"
+            column="2"
+            startOffset="1"
+            endLine="1"
+            endColumn="17"
+            endOffset="16"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="`&lt;animated-vector>` requires API level 21 (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`end`&quot; instead of &quot;`right`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="28"
+            column="37"
+            startOffset="1075"
+            endLine="28"
+            endColumn="58"
+            endOffset="1096"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="133"
+            column="21"
+            startOffset="5821"
+            endLine="133"
+            endColumn="46"
+            endOffset="5846"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `letterSpacing` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="152"
+            column="21"
+            startOffset="6817"
+            endLine="152"
+            endColumn="46"
+            endOffset="6842"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `letterSpacing` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`end`&quot; instead of &quot;`right`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="$SDK/src/main/res/layout/fragment_http.xml"
+            line="26"
+            column="37"
+            startOffset="1015"
+            endLine="26"
+            endColumn="58"
+            endOffset="1036"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_otp.xml"
+            line="33"
+            column="9"
+            startOffset="1187"
+            endLine="33"
+            endColumn="56"
+            endOffset="1234"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `backgroundTint` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout/info_text_layout.xml"
+            line="14"
+            column="9"
+            startOffset="507"
+            endLine="14"
+            endColumn="37"
+            endOffset="535"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `letterSpacing` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout/info_text_layout.xml"
+            line="26"
+            column="9"
+            startOffset="928"
+            endLine="26"
+            endColumn="37"
+            endOffset="956"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `letterSpacing` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout/progress_dialog_fragment_core1.xml"
+            line="19"
+            column="13"
+            startOffset="686"
+            endLine="19"
+            endColumn="48"
+            endOffset="721"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `indeterminateTint` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout/progress_dialog_fragment_core1.xml"
+            line="20"
+            column="13"
+            startOffset="734"
+            endLine="20"
+            endColumn="51"
+            endOffset="772"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `indeterminateTintMode` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`end`&quot; instead of &quot;`right`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="28"
+            column="37"
+            startOffset="1075"
+            endLine="28"
+            endColumn="58"
+            endOffset="1096"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="142"
+            column="25"
+            startOffset="6208"
+            endLine="142"
+            endColumn="50"
+            endOffset="6233"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `letterSpacing` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="163"
+            column="25"
+            startOffset="7329"
+            endLine="163"
+            endColumn="50"
+            endOffset="7354"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `letterSpacing` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_otp.xml"
+            line="33"
+            column="9"
+            startOffset="1189"
+            endLine="33"
+            endColumn="56"
+            endOffset="1236"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `backgroundTint` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/impl/ui/challenge/MultiSelectFragment.kt"
+            line="45"
+            column="19"
+            startOffset="1824"
+            endLine="45"
+            endColumn="26"
+            endOffset="1831"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/impl/ui/challenge/HtmlFragment.kt"
+            line="75"
+            column="69"
+            startOffset="2780"
+            endLine="75"
+            endColumn="72"
+            endOffset="2783"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Call requires API level 21 (current min is %1$s): `android.webkit.WebResourceRequest#getUrl`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/impl/ui/challenge/SingleSelectFragment.kt"
+            line="45"
+            column="19"
+            startOffset="1718"
+            endLine="45"
+            endColumn="26"
+            endOffset="1725"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="77"
+            column="43"
+            startOffset="2816"
+            endLine="77"
+            endColumn="56"
+            endOffset="2829"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.util.Locale"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="name"
+                string="toLanguageTag"/>
+            <entry
+                name="message"
+                string="Call requires API level 21 (current min is %1$s): `java.util.Locale#toLanguageTag`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="145"
+            column="64"
+            startOffset="5913"
+            endLine="145"
+            endColumn="74"
+            endOffset="5923"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Call requires API level 23 (current min is %1$s): `android.telephony.TelephonyManager#getPhoneCount`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="155"
+            column="64"
+            startOffset="6589"
+            endLine="155"
+            endColumn="98"
+            endOffset="6623"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Call requires API level 23 (current min is %1$s): `android.telephony.TelephonyManager#isHearingAidCompatibilitySupported`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="157"
+            column="64"
+            startOffset="6756"
+            endLine="157"
+            endColumn="76"
+            endOffset="6768"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Call requires API level 21 (current min is %1$s): `android.telephony.TelephonyManager#isSmsCapable`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="158"
+            column="64"
+            startOffset="6836"
+            endLine="158"
+            endColumn="82"
+            endOffset="6854"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Call requires API level 23 (current min is %1$s): `android.telephony.TelephonyManager#isTtyModeSupported`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="22"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="159"
+            column="64"
+            startOffset="6922"
+            endLine="159"
+            endColumn="78"
+            endOffset="6936"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="22"/>
+            <entry
+                name="message"
+                string="Call requires API level 22 (current min is %1$s): `android.telephony.TelephonyManager#isVoiceCapable`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="160"
+            column="64"
+            startOffset="7004"
+            endLine="160"
+            endColumn="76"
+            endOffset="7016"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Call requires API level 23 (current min is %1$s): `android.telephony.TelephonyManager#isWorldPhone`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="31"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="210"
+            column="13"
+            startOffset="9241"
+            endLine="210"
+            endColumn="58"
+            endOffset="9286"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="31"/>
+            <entry
+                name="message"
+                string="Field requires API level S (current min is %1$s): `android.Manifest.permission#BLUETOOTH_CONNECT`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="255"
+            column="54"
+            startOffset="10887"
+            endLine="255"
+            endColumn="100"
+            endOffset="10933"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Field requires API level 21 (current min is %1$s): `android.provider.Settings.Secure#ACCESSIBILITY_DISPLAY_INVERSION_ENABLED`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="268"
+            column="54"
+            startOffset="11886"
+            endLine="268"
+            endColumn="81"
+            endOffset="11913"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Field requires API level 21 (current min is %1$s): `android.provider.Settings.Secure#SKIP_FIRST_USE_HINTS`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="293"
+            column="43"
+            startOffset="13502"
+            endLine="293"
+            endColumn="77"
+            endOffset="13536"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Field requires API level 23 (current min is %1$s): `android.provider.Settings.System#DTMF_TONE_TYPE_WHEN_DIALING`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="313"
+            column="54"
+            startOffset="14776"
+            endLine="313"
+            endColumn="81"
+            endOffset="14803"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Field requires API level 23 (current min is %1$s): `android.provider.Settings.System#VIBRATE_WHEN_RINGING`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="28"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="315"
+            column="54"
+            startOffset="14861"
+            endLine="315"
+            endColumn="77"
+            endOffset="14884"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="28"/>
+            <entry
+                name="message"
+                string="Field requires API level 28 (current min is %1$s): `android.provider.Settings.Secure#RTT_CALLING_MODE`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="30"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="316"
+            column="54"
+            startOffset="14941"
+            endLine="316"
+            endColumn="76"
+            endOffset="14963"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="30"/>
+            <entry
+                name="message"
+                string="Field requires API level 30 (current min is %1$s): `android.provider.Settings.Secure#SECURE_FRP_MODE`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="29"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="317"
+            column="54"
+            startOffset="15020"
+            endLine="317"
+            endColumn="81"
+            endOffset="15047"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="29"/>
+            <entry
+                name="message"
+                string="Field requires API level 29 (current min is %1$s): `android.provider.Settings.Global#APPLY_RAMPING_RINGER`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="As of Android 11, this method no longer returns information about all apps; \&#xA;see https://g.co/dev/packagevisibility for details">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="324"
+            column="39"
+            startOffset="15263"
+            endLine="324"
+            endColumn="63"
+            endOffset="15287"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="true"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="28"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="346"
+            column="60"
+            startOffset="16475"
+            endLine="346"
+            endColumn="72"
+            endOffset="16487"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="28"/>
+            <entry
+                name="message"
+                string="Call requires API level 28 (current min is %1$s): `android.telephony.TelephonyManager#getSimCarrierId`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="28"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="347"
+            column="60"
+            startOffset="16549"
+            endLine="347"
+            endColumn="76"
+            endOffset="16565"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="28"/>
+            <entry
+                name="message"
+                string="Call requires API level 28 (current min is %1$s): `android.telephony.TelephonyManager#getSimCarrierIdName`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="29"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="348"
+            column="60"
+            startOffset="16627"
+            endLine="348"
+            endColumn="76"
+            endOffset="16643"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="29"/>
+            <entry
+                name="message"
+                string="Call requires API level 29 (current min is %1$s): `android.telephony.TelephonyManager#getManufacturerCode`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="29"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="349"
+            column="60"
+            startOffset="16705"
+            endLine="349"
+            endColumn="80"
+            endOffset="16725"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="29"/>
+            <entry
+                name="message"
+                string="Call requires API level 29 (current min is %1$s): `android.telephony.TelephonyManager#getSimSpecificCarrierId`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="29"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="350"
+            column="60"
+            startOffset="16787"
+            endLine="350"
+            endColumn="84"
+            endOffset="16811"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="29"/>
+            <entry
+                name="message"
+                string="Call requires API level 29 (current min is %1$s): `android.telephony.TelephonyManager#getSimSpecificCarrierIdName`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="29"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="354"
+            column="30"
+            startOffset="16959"
+            endLine="354"
+            endColumn="49"
+            endOffset="16978"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="29"/>
+            <entry
+                name="message"
+                string="Call requires API level 29 (current min is %1$s): `android.telephony.TelephonyManager#isMultiSimSupported`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with `checkPermission`) or explicitly handle a potential `SecurityException`">
+        <fix-data missing="android.permission.READ_PHONE_STATE" requirement="android.permission.READ_PHONE_STATE"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="354"
+            column="13"
+            startOffset="16942"
+            endLine="354"
+            endColumn="49"
+            endOffset="16978"/>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="30"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="356"
+            column="60"
+            startOffset="17119"
+            endLine="356"
+            endColumn="74"
+            endOffset="17133"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="30"/>
+            <entry
+                name="message"
+                string="Call requires API level 30 (current min is %1$s): `android.telephony.TelephonyManager#getSubscriptionId`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="473"
+            column="15"
+            startOffset="20630"
+            endLine="473"
+            endColumn="22"
+            endOffset="20637"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/Extentions.kt"
+            line="123"
+            column="19"
+            startOffset="4082"
+            endLine="123"
+            endColumn="41"
+            endOffset="4104"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Class requires API level 21 (current min is %1$s): `android.graphics.drawable.AnimatedVectorDrawable`"/>
+        </map>
+    </incident>
+
+</incidents>

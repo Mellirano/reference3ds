@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivLogoPermission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:visibility="gone"
+            app:tint="?attr/pb_primaryColor_attr"
+            tools:tint="@color/pb_primaryTextColorLight" />
+
+        <TextView
+            android:id="@+id/tvGroupPermission"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="?attr/pb_primaryColor_attr"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Camera"
+            tools:textColor="@color/pb_primaryColorLight" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvExplanationPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/pb_primaryTextColor_attr"
+        tools:text="Description"
+        tools:textColor="@color/pb_primaryTextColorLight" />
+
+
+</LinearLayout>

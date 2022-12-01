@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/valery/AndroidStudioProjects/reference3ds/permission-controller/build/intermediates/merged_res/release/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/valery/AndroidStudioProjects/reference3ds/permission-controller/src/main/res/values-en/strings.xml",
+                    "from": {
+                        "startLines": "3,6,7,8,9,10,11,5,4,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "106,379,432,489,546,607,658,263,160,55",
+                        "endColumns": "53,52,56,56,60,50,54,115,102,50",
+                        "endOffsets": "155,427,484,541,602,653,708,374,258,101"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,162,219,276,337,388,443,559,662",
+                        "endColumns": "53,52,56,56,60,50,54,115,102,50",
+                        "endOffsets": "104,157,214,271,332,383,438,554,657,708"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/valery/AndroidStudioProjects/reference3ds/permission-controller/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/valery/AndroidStudioProjects/reference3ds/permission-controller/src/main/res/values-en/strings.xml",
+                    "from": {
+                        "startLines": "3,6,7,8,9,10,11,5,4,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "106,379,432,489,546,607,658,263,160,55",
+                        "endColumns": "53,52,56,56,60,50,54,115,102,50",
+                        "endOffsets": "155,427,484,541,602,653,708,374,258,101"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,162,219,276,337,388,443,559,662",
+                        "endColumns": "53,52,56,56,60,50,54,115,102,50",
+                        "endOffsets": "104,157,214,271,332,383,438,554,657,708"
+                    }
+                }
+            ]
+        }
+    ]
+}

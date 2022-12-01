@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.3" type="conditional_incidents">
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$PBTHEMES/src/main/java/ua/privatbank/pbthemes/ThemesComposer.kt"
+            line="19"
+            column="31"
+            startOffset="579"
+            endLine="19"
+            endColumn="38"
+            endOffset="586"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+</incidents>

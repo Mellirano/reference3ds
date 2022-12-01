@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#8dc641</color>
+    <color name="colorPrimaryDark">#5b9b21</color>
+    <color name="errorColor">#ff5b5c</color>
+    <color name="p24ColorPrimary">#8dc641</color>
+    <color name="p24secondaryTextColor">#de000000</color>
+    <color name="textColor">#de000000</color>
+    <string name="app_name">sdk</string>
+    <style name="TextStyle">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+    </style>
+    <style name="ThreeDSTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/p24ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#8dc641</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- <item name="android:textAppearance">@style/TextStyle</item>-->
+    </style>
+</resources>

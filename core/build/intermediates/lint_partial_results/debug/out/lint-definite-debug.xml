@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.3" type="incidents">
+
+    <incident
+        id="ExportedReceiver"
+        severity="warning"
+        message="Exported receiver does not require permission">
+        <fix-attribute
+            description="Set permission"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="permission"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/AndroidManifest.xml"
+            line="12"
+            column="10"
+            startOffset="421"
+            endLine="12"
+            endColumn="18"
+            endOffset="429"/>
+    </incident>
+
+    <incident
+        id="ExportedReceiver"
+        severity="warning"
+        message="Exported receiver does not require permission">
+        <fix-attribute
+            description="Set permission"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="permission"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/AndroidManifest.xml"
+            line="20"
+            column="10"
+            startOffset="719"
+            endLine="20"
+            endColumn="18"
+            endOffset="727"/>
+    </incident>
+
+    <incident
+        id="RedundantNamespace"
+        severity="warning"
+        message="This namespace declaration is redundant">
+        <fix-attribute
+            description="Delete namespace"
+            attribute="xmlns:android"/>
+        <location
+            file="$CORE/src/main/res/animator/enter.xml"
+            line="5"
+            column="9"
+            startOffset="133"
+            endLine="5"
+            endColumn="67"
+            endOffset="191"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/layout/search_collapsing_toolbar_content.xml"
+            line="78"
+            column="14"
+            startOffset="3669"
+            endLine="78"
+            endColumn="23"
+            endOffset="3678"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_dialog.xml"
+            line="18"
+            column="6"
+            startOffset="777"
+            endLine="18"
+            endColumn="15"
+            endOffset="786"/>
+    </incident>
+
+    <incident
+        id="UseCompoundDrawables"
+        severity="warning"
+        message="This tag and its children can be replaced by one `&lt;TextView/>` and a compound drawable">
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_regular.xml"
+            line="16"
+            column="6"
+            startOffset="677"
+            endLine="16"
+            endColumn="18"
+            endOffset="689"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_regular.xml"
+            line="23"
+            column="10"
+            startOffset="898"
+            endLine="23"
+            endColumn="19"
+            endOffset="907"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_regular.xml"
+            line="66"
+            column="10"
+            startOffset="2541"
+            endLine="66"
+            endColumn="21"
+            endOffset="2552"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_searchable.xml"
+            line="40"
+            column="14"
+            startOffset="1691"
+            endLine="40"
+            endColumn="22"
+            endOffset="1699"/>
+    </incident>
+
+    <incident
+        id="TextFields"
+        severity="warning"
+        message="This text field does not specify an `inputType`">
+        <fix-attribute
+            description="Set inputType"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="inputType"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_searchable.xml"
+            line="40"
+            column="14"
+            startOffset="1691"
+            endLine="40"
+            endColumn="22"
+            endOffset="1699"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Поиск&quot;, should use `@string` resource">
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_searchable.xml"
+            line="47"
+            column="17"
+            startOffset="2009"
+            endLine="47"
+            endColumn="37"
+            endOffset="2029"/>
+    </incident>
+
+    <incident
+        id="RedundantNamespace"
+        severity="warning"
+        message="This namespace declaration is redundant">
+        <fix-attribute
+            description="Delete namespace"
+            attribute="xmlns:android"/>
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_simple.xml"
+            line="11"
+            column="40"
+            startOffset="465"
+            endLine="11"
+            endColumn="98"
+            endOffset="523"/>
+    </incident>
+
+    <incident
+        id="ObsoleteLayoutParam"
+        severity="warning"
+        message="Invalid layout param in a `FrameLayout`: `layout_weight`">
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_wide.xml"
+            line="28"
+            column="13"
+            startOffset="1037"
+            endLine="28"
+            endColumn="38"
+            endOffset="1062"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/layout/view_vibrate_phone.xml"
+            line="7"
+            column="6"
+            startOffset="203"
+            endLine="7"
+            endColumn="15"
+            endOffset="212"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/layout/view_vibrate_phone.xml"
+            line="15"
+            column="6"
+            startOffset="467"
+            endLine="15"
+            endColumn="15"
+            endOffset="476"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/layout/view_vibrate_phone.xml"
+            line="22"
+            column="6"
+            startOffset="701"
+            endLine="22"
+            endColumn="15"
+            endOffset="710"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/layout/view_vibrate_phone.xml"
+            line="29"
+            column="6"
+            startOffset="932"
+            endLine="29"
+            endColumn="15"
+            endOffset="941"/>
+    </incident>
+
+    <incident
+        id="MenuTitle"
+        severity="error"
+        message="Menu items should specify a `title`">
+        <fix-attribute
+            description="Set title"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="title"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$CORE/src/main/res/menu/toolbar_search_menu.xml"
+            line="4"
+            column="2"
+            startOffset="158"
+            endLine="4"
+            endColumn="6"
+            endOffset="162"/>
+    </incident>
+
+    <incident
+        id="AppCompatResource"
+        severity="error"
+        message="Should use `app:showAsAction` with the appcompat library with `xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;`">
+        <fix-composite
+            description="Update to app:showAsAction">
+            <fix-attribute
+                description="Set showAsAction=&quot;always&quot;"
+                namespace="http://schemas.android.com/apk/res-auto"
+                attribute="showAsAction"
+                value="always"/>
+            <fix-attribute
+                description="Delete showAsAction"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="showAsAction"/>
+        </fix-composite>
+        <location
+            file="$CORE/src/main/res/menu/toolbar_search_menu.xml"
+            line="7"
+            column="5"
+            startOffset="259"
+            endLine="7"
+            endColumn="34"
+            endOffset="288"/>
+    </incident>
+
+    <incident
+        id="ApplySharedPref"
+        severity="warning"
+        message="Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background">
+        <fix-replace
+            description="Replace commit() with apply()"
+            oldPattern="(commit)\s*\("
+            replacement="apply"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/logger/LoggerFactory.kt"
+            line="14"
+            column="90"
+            startOffset="392"
+            endLine="14"
+            endColumn="98"
+            endOffset="400"/>
+    </incident>
+
+    <incident
+        id="Recycle"
+        severity="warning"
+        message="This animation should be started with `#start()`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/progress/ProgressBarDialog.kt"
+            line="141"
+            column="13"
+            startOffset="5879"
+            endLine="141"
+            endColumn="26"
+            endOffset="5892"/>
+    </incident>
+
+    <incident
+        id="CheckResult"
+        severity="warning"
+        message="The result of `subscribe` is not used">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/progress/ProgressDialogController.kt"
+            line="143"
+            column="9"
+            startOffset="5440"
+            endLine="148"
+            endColumn="10"
+            endOffset="5630"/>
+    </incident>
+
+    <incident
+        id="CustomX509TrustManager"
+        severity="warning"
+        message="Implementing a custom `X509TrustManager` is error-prone and likely to be insecure. It is likely to disable certificate validation altogether, and is non-trivial to implement correctly without calling Android&apos;s default implementation.">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/network/TrustAllCerts.java"
+            line="18"
+            column="25"
+            startOffset="562"
+            endLine="18"
+            endColumn="41"
+            endOffset="578"/>
+    </incident>
+
+    <incident
+        id="TrustAllX509TrustManager"
+        severity="warning"
+        message="`checkServerTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/network/TrustAllCerts.java"
+            line="29"
+            column="37"
+            startOffset="1054"
+            endLine="29"
+            endColumn="55"
+            endOffset="1072"/>
+    </incident>
+
+    <incident
+        id="TrustAllX509TrustManager"
+        severity="warning"
+        message="`checkClientTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/network/TrustAllCerts.java"
+            line="25"
+            column="37"
+            startOffset="894"
+            endLine="25"
+            endColumn="55"
+            endOffset="912"/>
+    </incident>
+
+    <incident
+        id="BadHostnameVerifier"
+        severity="warning"
+        message="`verify` always returns `true`, which could cause insecure network traffic due to trusting TLS/SSL server certificates for wrong hostnames">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/network/TrustAllCerts.java"
+            line="38"
+            column="32"
+            startOffset="1442"
+            endLine="38"
+            endColumn="38"
+            endOffset="1448"/>
+    </incident>
+
+    <incident
+        id="HardwareIds"
+        severity="warning"
+        message="Using `getString` to get device identifiers is not recommended">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/DeviceUtils.kt"
+            line="38"
+            column="33"
+            startOffset="1451"
+            endLine="38"
+            endColumn="145"
+            endOffset="1563"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/DeviceUtils.kt"
+            line="92"
+            column="16"
+            startOffset="3305"
+            endLine="92"
+            endColumn="43"
+            endOffset="3332"/>
+    </incident>
+
+    <incident
+        id="ConstantLocale"
+        severity="warning"
+        message="Assigning `Locale.getDefault()` to a final static field is suspicious; this code will not work correctly if the user changes locale while the app is running">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/DateExtentions.kt"
+            line="70"
+            column="25"
+            startOffset="1824"
+            endLine="70"
+            endColumn="44"
+            endOffset="1843"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/ViewExt.kt"
+            line="125"
+            column="9"
+            startOffset="3718"
+            endLine="125"
+            endColumn="64"
+            endOffset="3773"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/ViewExt.kt"
+            line="138"
+            column="25"
+            startOffset="4152"
+            endLine="138"
+            endColumn="80"
+            endOffset="4207"/>
+    </incident>
+
+    <incident
+        id="SupportAnnotationUsage"
+        severity="error"
+        message="This annotation does not apply for type android.graphics.drawable.Drawable; expected int or long">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/ViewExt.kt"
+            line="313"
+            column="22"
+            startOffset="10108"
+            endLine="313"
+            endColumn="34"
+            endOffset="10120"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/ViewExt.kt"
+            line="323"
+            column="9"
+            startOffset="10539"
+            endLine="323"
+            endColumn="68"
+            endOffset="10598"/>
+    </incident>
+
+    <incident
+        id="ExifInterface"
+        severity="warning"
+        message="Avoid using `android.media.ExifInterface`; use `android.support.media.ExifInterface` from the support library instead">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/FileUtils.java"
+            line="17"
+            column="8"
+            startOffset="551"
+            endLine="17"
+            endColumn="35"
+            endOffset="578"/>
+    </incident>
+
+    <incident
+        id="Recycle"
+        severity="warning"
+        message="This `Cursor` should be freed up after use with `#close()`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/FileUtils.java"
+            line="73"
+            column="50"
+            startOffset="2419"
+            endLine="73"
+            endColumn="55"
+            endOffset="2424"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is never &lt; 19">
+        <fix-data conditional="false"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/FileUtils.java"
+            line="85"
+            column="13"
+            startOffset="2814"
+            endLine="85"
+            endColumn="39"
+            endOffset="2840"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/FileUtils.java"
+            line="93"
+            column="34"
+            startOffset="3077"
+            endLine="93"
+            endColumn="85"
+            endOffset="3128"/>
+    </incident>
+
+    <incident
+        id="Range"
+        severity="error"
+        message="Value must be ≥ 0">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/FileUtils.java"
+            line="226"
+            column="40"
+            startOffset="8770"
+            endLine="226"
+            endColumn="90"
+            endOffset="8820"/>
+    </incident>
+
+    <incident
+        id="UnsupportedChromeOsCameraSystemFeature"
+        severity="warning"
+        message="You should look for any camera available on the device, not just the rear">
+        <fix-replace
+            description="Switch to look for FEATURE_CAMERA_ANY"
+            oldString="FEATURE_CAMERA"
+            replacement="FEATURE_CAMERA_ANY"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/FileUtils.java"
+            line="326"
+            column="13"
+            startOffset="12856"
+            endLine="326"
+            endColumn="75"
+            endOffset="12918"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/FileUtils.java"
+            line="526"
+            column="13"
+            startOffset="21264"
+            endLine="526"
+            endColumn="40"
+            endOffset="21291"/>
+    </incident>
+
+    <incident
+        id="Range"
+        severity="error"
+        message="Value must be ≥ 0">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/FileUtils.java"
+            line="884"
+            column="68"
+            startOffset="35560"
+            endLine="884"
+            endColumn="119"
+            endOffset="35611"/>
+    </incident>
+
+    <incident
+        id="PackageManagerGetSignatures"
+        severity="warning"
+        message="Reading app signatures from `getPackageInfo`: The app signatures could be exploited if not validated properly; see issue explanation for details">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/storage/Delegates.kt"
+            line="56"
+            column="125"
+            startOffset="2266"
+            endLine="56"
+            endColumn="154"
+            endOffset="2295"/>
+    </incident>
+
+    <incident
+        id="PackageManagerGetSignatures"
+        severity="warning"
+        message="Reading app signatures from `getPackageInfo`: The app signatures could be exploited if not validated properly; see issue explanation for details">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/storage/Delegates.kt"
+            line="59"
+            column="121"
+            startOffset="2482"
+            endLine="59"
+            endColumn="150"
+            endOffset="2511"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.N, lambda=0)`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="81"
+            column="12"
+            startOffset="2587"
+            endLine="81"
+            endColumn="20"
+            endOffset="2595"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.M, lambda=0)`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="87"
+            column="12"
+            startOffset="2713"
+            endLine="87"
+            endColumn="25"
+            endOffset="2726"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=android.os.Build.VERSION_CODES.R, lambda=0)`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="93"
+            column="12"
+            startOffset="2844"
+            endLine="93"
+            endColumn="15"
+            endOffset="2847"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.LOLLIPOP, lambda=0)`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="105"
+            column="5"
+            startOffset="3071"
+            endLine="105"
+            endColumn="15"
+            endOffset="3081"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.KITKAT, lambda=0)`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="111"
+            column="12"
+            startOffset="3206"
+            endLine="111"
+            endColumn="20"
+            endOffset="3214"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="112"
+            column="9"
+            startOffset="3245"
+            endLine="112"
+            endColumn="60"
+            endOffset="3296"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.M)`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="123"
+            column="5"
+            startOffset="3460"
+            endLine="123"
+            endColumn="18"
+            endOffset="3473"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.LOLLIPOP)`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="125"
+            column="5"
+            startOffset="3530"
+            endLine="125"
+            endColumn="15"
+            endOffset="3540"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.KITKAT)`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="127"
+            column="5"
+            startOffset="3604"
+            endLine="127"
+            endColumn="13"
+            endOffset="3612"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="127"
+            column="18"
+            startOffset="3617"
+            endLine="127"
+            endColumn="69"
+            endOffset="3668"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is never &lt; 19">
+        <fix-data conditional="false"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/Extentions.kt"
+            line="130"
+            column="9"
+            startOffset="3723"
+            endLine="130"
+            endColumn="59"
+            endOffset="3773"/>
+    </incident>
+
+    <incident
+        id="Recycle"
+        severity="warning"
+        message="This animation should be started with `#start()`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/widgets/VibratePhoneView.kt"
+            line="141"
+            column="24"
+            startOffset="6097"
+            endLine="141"
+            endColumn="31"
+            endOffset="6104"/>
+    </incident>
+
+    <incident
+        id="Recycle"
+        severity="warning"
+        message="This animation should be started with `#start()`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/widgets/VibratePhoneView.kt"
+            line="152"
+            column="31"
+            startOffset="6539"
+            endLine="152"
+            endColumn="38"
+            endOffset="6546"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view `SwipeBackLayout` overrides `onTouchEvent` but not `performClick`">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/widgets/SwipeBackLayout.java"
+            line="318"
+            column="20"
+            startOffset="9033"
+            endLine="318"
+            endColumn="32"
+            endOffset="9045"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="`onTouch` should call `View#performClick` when a click is detected">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/widgets/SwipeBackLayout.java"
+            line="161"
+            column="28"
+            startOffset="3746"
+            endLine="161"
+            endColumn="35"
+            endOffset="3753"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/base/BaseRecyclerViewAdapter.kt"
+            line="53"
+            column="9"
+            startOffset="1539"
+            endLine="53"
+            endColumn="31"
+            endOffset="1561"/>
+    </incident>
+
+    <incident
+        id="CheckResult"
+        severity="warning"
+        message="The result of `subscribe` is not used">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/base/BaseRecyclerViewAdapter.kt"
+            line="58"
+            column="9"
+            startOffset="1737"
+            endLine="68"
+            endColumn="19"
+            endOffset="2157"/>
+    </incident>
+
+    <incident
+        id="LifecycleAnnotationProcessorWithJava8"
+        severity="warning"
+        message="Use the Lifecycle Java 8 API provided by the `lifecycle-common-java8` library instead of Lifecycle annotations for faster incremental build.">
+        <location
+            file="$CORE/build.gradle"
+            line="68"
+            column="10"
+            startOffset="2105"
+            endLine="68"
+            endColumn="90"
+            endOffset="2185"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.6.20 is available: 1.7.20">
+        <location
+            file="$CORE/build.gradle"
+            line="60"
+            column="9"
+            startOffset="1425"
+            endLine="60"
+            endColumn="66"
+            endOffset="1482"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.2.0 is available: 1.5.1">
+        <location
+            file="$CORE/build.gradle"
+            line="61"
+            column="9"
+            startOffset="1491"
+            endLine="61"
+            endColumn="80"
+            endOffset="1562"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.1.0 is available: 1.2.1">
+        <location
+            file="$CORE/build.gradle"
+            line="62"
+            column="9"
+            startOffset="1571"
+            endLine="62"
+            endColumn="89"
+            endOffset="1651"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.3.0 is available: 1.7.0">
+        <location
+            file="$CORE/build.gradle"
+            line="64"
+            column="9"
+            startOffset="1737"
+            endLine="64"
+            endColumn="87"
+            endOffset="1815"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.0.4 is available: 2.1.4">
+        <location
+            file="$CORE/build.gradle"
+            line="65"
+            column="9"
+            startOffset="1824"
+            endLine="65"
+            endColumn="101"
+            endOffset="1916"/>
+    </incident>
+
+    <incident
+        id="KtxExtensionAvailable"
+        severity="informational"
+        message="Add suffix `-ktx` to enable the Kotlin extensions for this library">
+        <fix-replace
+            description="Replace with KTX dependency"
+            oldString="androidx.lifecycle:lifecycle-runtime"
+            replacement="androidx.lifecycle:lifecycle-runtime-ktx"/>
+        <location
+            file="$CORE/build.gradle"
+            line="66"
+            column="9"
+            startOffset="1925"
+            endLine="66"
+            endColumn="88"
+            endOffset="2004"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime than 2.2.0 is available: 2.5.1">
+        <location
+            file="$CORE/build.gradle"
+            line="66"
+            column="9"
+            startOffset="1925"
+            endLine="66"
+            endColumn="88"
+            endOffset="2004"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.json:json than 20180813 is available: 20220924">
+        <location
+            file="$CORE/build.gradle"
+            line="75"
+            column="24"
+            startOffset="2478"
+            endLine="75"
+            endColumn="75"
+            endOffset="2529"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.mockito:mockito-core than 3.8.0 is available: 4.5.1">
+        <location
+            file="$CORE/build.gradle"
+            line="77"
+            column="24"
+            startOffset="2627"
+            endLine="77"
+            endColumn="88"
+            endOffset="2691"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test:runner than 1.3.0 is available: 1.4.0">
+        <location
+            file="$CORE/build.gradle"
+            line="78"
+            column="31"
+            startOffset="2722"
+            endLine="78"
+            endColumn="88"
+            endOffset="2779"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.3.0 is available: 3.4.0">
+        <location
+            file="$CORE/build.gradle"
+            line="79"
+            column="31"
+            startOffset="2810"
+            endLine="79"
+            endColumn="113"
+            endOffset="2892"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.squareup.okhttp3:okhttp than 3.11.0 is available: 3.14.9">
+        <location
+            file="$CORE/build.gradle"
+            line="82"
+            column="9"
+            startOffset="2983"
+            endLine="82"
+            endColumn="76"
+            endOffset="3050"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.code.gson:gson than 2.8.5 is available: 2.9.1">
+        <location
+            file="$CORE/build.gradle"
+            line="83"
+            column="20"
+            startOffset="3070"
+            endLine="83"
+            endColumn="83"
+            endOffset="3133"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-auth-api-phone than 17.4.0 is available: 18.0.1">
+        <location
+            file="$CORE/build.gradle"
+            line="84"
+            column="20"
+            startOffset="3153"
+            endLine="84"
+            endColumn="116"
+            endOffset="3249"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.code.gson:gson than 2.8.5 is available: 2.9.1">
+        <location
+            file="$CORE/build.gradle"
+            line="85"
+            column="9"
+            startOffset="3258"
+            endLine="85"
+            endColumn="72"
+            endOffset="3321"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-location than 17.0.0 is available: 21.0.0">
+        <location
+            file="$CORE/build.gradle"
+            line="86"
+            column="9"
+            startOffset="3330"
+            endLine="86"
+            endColumn="117"
+            endOffset="3438"/>
+    </incident>
+
+    <incident
+        id="InflateParams"
+        severity="warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/snackbar/SnackbarHelper.kt"
+            line="97"
+            column="61"
+            startOffset="3526"
+            endLine="97"
+            endColumn="65"
+            endOffset="3530"/>
+    </incident>
+
+    <incident
+        id="InflateParams"
+        severity="warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)">
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/snackbar/SnackbarHelper.kt"
+            line="105"
+            column="60"
+            startOffset="3845"
+            endLine="105"
+            endColumn="64"
+            endOffset="3849"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `?attr/pb_foregroundColor_attr` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="$CORE/src/main/res/layout/search_collapsing_toolbar_content.xml"
+            line="8"
+            column="5"
+            startOffset="368"
+            endLine="8"
+            endColumn="55"
+            endOffset="418"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `?attr/core_snackbarBackgroundColor_attr` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_dialog.xml"
+            line="9"
+            column="5"
+            startOffset="388"
+            endLine="9"
+            endColumn="65"
+            endOffset="448"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `?attr/core_snackbarBackgroundColor_attr` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_regular.xml"
+            line="9"
+            column="5"
+            startOffset="389"
+            endLine="9"
+            endColumn="65"
+            endOffset="449"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `?attr/pb_foregroundColor_attr` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_searchable.xml"
+            line="8"
+            column="5"
+            startOffset="368"
+            endLine="8"
+            endColumn="55"
+            endOffset="418"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `?attr/pb_foregroundColor_attr` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_simple.xml"
+            line="6"
+            column="5"
+            startOffset="287"
+            endLine="6"
+            endColumn="55"
+            endOffset="337"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `?attr/pb_dividerColor_attr` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="$CORE/src/main/res/layout/toolbar_divider_pre_lolipop.xml"
+            line="4"
+            column="5"
+            startOffset="148"
+            endLine="4"
+            endColumn="52"
+            endOffset="195"/>
+    </incident>
+
+</incidents>

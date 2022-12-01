@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.3" type="conditional_incidents">
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="$CORE/src/main/res/drawable/ic_arrow_back_24dp_core.xml"
+            line="7"
+            column="29"
+            startOffset="240"
+            endLine="7"
+            endColumn="61"
+            endOffset="272"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="$CORE/src/main/res/drawable/ic_close_black_24dp_core.xml"
+            line="8"
+            column="28"
+            startOffset="274"
+            endLine="8"
+            endColumn="56"
+            endOffset="302"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="$CORE/src/main/res/drawable/ic_close_secondary_24dp_core.xml"
+            line="8"
+            column="28"
+            startOffset="274"
+            endLine="8"
+            endColumn="60"
+            endOffset="306"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="$CORE/src/main/res/drawable/ic_close_white_24dp_core.xml"
+            line="7"
+            column="28"
+            startOffset="223"
+            endLine="7"
+            endColumn="57"
+            endOffset="252"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="$CORE/src/main/res/drawable/ic_info.xml"
+            line="4"
+            column="19"
+            startOffset="136"
+            endLine="4"
+            endColumn="52"
+            endOffset="169"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="$CORE/src/main/res/drawable/ic_info.xml"
+            line="8"
+            column="28"
+            startOffset="276"
+            endLine="8"
+            endColumn="61"
+            endOffset="309"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="$CORE/src/main/res/drawable/ic_search_toolbar_core_24dp.xml"
+            line="7"
+            column="28"
+            startOffset="223"
+            endLine="7"
+            endColumn="60"
+            endOffset="255"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="$CORE/src/main/res/drawable/ic_signal_off.xml"
+            line="8"
+            column="26"
+            startOffset="373"
+            endLine="8"
+            endColumn="59"
+            endOffset="406"/>
+        <map>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="containsFillType"
+                boolean="true"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$CORE/src/main/res/drawable/pb_loader_animated_line.xml"
+            line="1"
+            column="2"
+            startOffset="1"
+            endLine="1"
+            endColumn="17"
+            endOffset="16"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="`&lt;animated-vector>` requires API level 21 (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$CORE/src/main/res/drawable/pb_loader_camera_animated_line.xml"
+            line="1"
+            column="2"
+            startOffset="1"
+            endLine="1"
+            endColumn="17"
+            endOffset="16"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="`&lt;animated-vector>` requires API level 21 (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$CORE/src/main/res/drawable/pb_loader_camera_form.xml"
+            line="1"
+            column="2"
+            startOffset="1"
+            endLine="1"
+            endColumn="17"
+            endOffset="16"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="`&lt;animated-vector>` requires API level 21 (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$CORE/src/main/res/drawable/pb_loader_form.xml"
+            line="1"
+            column="2"
+            startOffset="1"
+            endLine="1"
+            endColumn="17"
+            endOffset="16"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="`&lt;animated-vector>` requires API level 21 (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Redundant attribute `layout_marginLeft`; already defining `layout_marginStart` with `targetSdkVersion` 31">
+        <fix-attribute
+            description="Delete layout_marginLeft"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="layout_marginLeft"/>
+        <location
+            file="$CORE/src/main/res/layout/search_collapsing_toolbar_content.xml"
+            line="45"
+            column="17"
+            startOffset="1976"
+            endLine="45"
+            endColumn="42"
+            endOffset="2001"/>
+        <map>
+            <entry
+                name="applies"
+                int="18"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Redundant attribute `layout_marginLeft`; already defining `layout_marginStart` with `targetSdkVersion` 31">
+        <fix-attribute
+            description="Delete layout_marginLeft"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="layout_marginLeft"/>
+        <location
+            file="$CORE/src/main/res/layout/search_collapsing_toolbar_content.xml"
+            line="60"
+            column="17"
+            startOffset="2747"
+            endLine="60"
+            endColumn="42"
+            endOffset="2772"/>
+        <map>
+            <entry
+                name="applies"
+                int="18"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Redundant attribute `layout_marginRight`; already defining `layout_marginEnd` with `targetSdkVersion` 31">
+        <fix-attribute
+            description="Delete layout_marginRight"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="layout_marginRight"/>
+        <location
+            file="$CORE/src/main/res/layout/search_collapsing_toolbar_content.xml"
+            line="62"
+            column="17"
+            startOffset="2862"
+            endLine="62"
+            endColumn="43"
+            endOffset="2888"/>
+        <map>
+            <entry
+                name="applies"
+                int="18"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Redundant attribute `layout_toLeftOf`; already defining `layout_toStartOf` with `targetSdkVersion` 31">
+        <fix-attribute
+            description="Delete layout_toLeftOf"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="layout_toLeftOf"/>
+        <location
+            file="$CORE/src/main/res/layout/search_collapsing_toolbar_content.xml"
+            line="66"
+            column="17"
+            startOffset="3058"
+            endLine="66"
+            endColumn="40"
+            endOffset="3081"/>
+        <map>
+            <entry
+                name="applies"
+                int="18"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Redundant attribute `layout_toRightOf`; already defining `layout_toEndOf` with `targetSdkVersion` 31">
+        <fix-attribute
+            description="Delete layout_toRightOf"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="layout_toRightOf"/>
+        <location
+            file="$CORE/src/main/res/layout/search_collapsing_toolbar_content.xml"
+            line="68"
+            column="17"
+            startOffset="3173"
+            endLine="68"
+            endColumn="41"
+            endOffset="3197"/>
+        <map>
+            <entry
+                name="applies"
+                int="18"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Redundant attribute `layout_alignParentRight`; already defining `layout_alignParentEnd` with `targetSdkVersion` 31">
+        <fix-attribute
+            description="Delete layout_alignParentRight"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="layout_alignParentRight"/>
+        <location
+            file="$CORE/src/main/res/layout/search_collapsing_toolbar_content.xml"
+            line="83"
+            column="17"
+            startOffset="3895"
+            endLine="83"
+            endColumn="48"
+            endOffset="3926"/>
+        <map>
+            <entry
+                name="applies"
+                int="18"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`start`&quot; instead of &quot;`left`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_dialog.xml"
+            line="39"
+            column="37"
+            startOffset="1579"
+            endLine="39"
+            endColumn="63"
+            endOffset="1605"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Redundant attribute `layout_marginLeft`; already defining `layout_marginStart` with `targetSdkVersion` 31">
+        <fix-attribute
+            description="Delete layout_marginLeft"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="layout_marginLeft"/>
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_dialog.xml"
+            line="40"
+            column="13"
+            startOffset="1619"
+            endLine="40"
+            endColumn="38"
+            endOffset="1644"/>
+        <map>
+            <entry
+                name="applies"
+                int="18"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`start`&quot; instead of &quot;`left`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_dialog.xml"
+            line="54"
+            column="37"
+            startOffset="2259"
+            endLine="54"
+            endColumn="63"
+            endOffset="2285"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Redundant attribute `layout_marginLeft`; already defining `layout_marginStart` with `targetSdkVersion` 31">
+        <fix-attribute
+            description="Delete layout_marginLeft"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="layout_marginLeft"/>
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_dialog.xml"
+            line="55"
+            column="13"
+            startOffset="2299"
+            endLine="55"
+            endColumn="38"
+            endOffset="2324"/>
+        <map>
+            <entry
+                name="applies"
+                int="18"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`end`&quot; instead of &quot;`right`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_dialog.xml"
+            line="75"
+            column="37"
+            startOffset="3325"
+            endLine="75"
+            endColumn="62"
+            endOffset="3350"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`start`&quot; instead of &quot;`left`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_regular.xml"
+            line="36"
+            column="37"
+            startOffset="1427"
+            endLine="36"
+            endColumn="63"
+            endOffset="1453"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`end`&quot; instead of &quot;`right`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_regular.xml"
+            line="59"
+            column="37"
+            startOffset="2273"
+            endLine="59"
+            endColumn="62"
+            endOffset="2298"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`end`&quot; instead of &quot;`right`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="$CORE/src/main/res/layout/snackbar_content_regular.xml"
+            line="70"
+            column="37"
+            startOffset="2725"
+            endLine="70"
+            endColumn="62"
+            endOffset="2750"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Consider replacing `android:layout_marginLeft` with `android:layout_marginStart=&quot;@dimen/p24_margin_normal&quot;` to better support right-to-left layouts">
+        <fix-replace
+            description="Replace with android:layout_marginStart=&quot;@dimen/p24_margin_normal&quot;"
+            oldString="layout_marginLeft"
+            replacement="layout_marginStart"/>
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_searchable.xml"
+            line="44"
+            column="17"
+            startOffset="1855"
+            endLine="44"
+            endColumn="42"
+            endOffset="1880"/>
+        <map>
+            <entry
+                name="applies"
+                int="10"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_wide.xml"
+            line="8"
+            column="5"
+            startOffset="359"
+            endLine="8"
+            endColumn="28"
+            endOffset="382"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `elevation` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$CORE/src/main/res/layout/toolbar_content_wide.xml"
+            line="114"
+            column="21"
+            startOffset="5257"
+            endLine="114"
+            endColumn="44"
+            endOffset="5280"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `elevation` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/jsonconverter/GsonConverter.kt"
+            line="154"
+            column="5"
+            startOffset="5238"
+            endLine="154"
+            endColumn="12"
+            endOffset="5245"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/snackbar/SnackbarViewDialog.kt"
+            line="14"
+            column="97"
+            startOffset="617"
+            endLine="14"
+            endColumn="145"
+            endOffset="665"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Call requires API level 21 (current min is %1$s): `android.widget.LinearLayout()`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/network/OkhttpNetworkConfiguration.kt"
+            line="72"
+            column="31"
+            startOffset="3001"
+            endLine="72"
+            endColumn="38"
+            endOffset="3008"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.util.Map"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.util.Map#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/navigation/NavContext.kt"
+            line="93"
+            column="16"
+            startOffset="2312"
+            endLine="93"
+            endColumn="23"
+            endOffset="2319"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/ViewExt.kt"
+            line="109"
+            column="19"
+            startOffset="3396"
+            endLine="109"
+            endColumn="41"
+            endOffset="3418"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Class requires API level 21 (current min is %1$s): `android.graphics.drawable.AnimatedVectorDrawable`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/BundleExt.kt"
+            line="17"
+            column="14"
+            startOffset="742"
+            endLine="17"
+            endColumn="21"
+            endOffset="749"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/BundleExt.kt"
+            line="21"
+            column="18"
+            startOffset="981"
+            endLine="21"
+            endColumn="25"
+            endOffset="988"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/BundleExt.kt"
+            line="36"
+            column="18"
+            startOffset="1551"
+            endLine="36"
+            endColumn="25"
+            endOffset="1558"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/EncryptionUtils.kt"
+            line="37"
+            column="42"
+            startOffset="1410"
+            endLine="37"
+            endColumn="73"
+            endOffset="1441"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Field requires API level 23 (current min is %1$s): `android.security.keystore.KeyProperties#KEY_ALGORITHM_AES`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/EncryptionUtils.kt"
+            line="38"
+            column="19"
+            startOffset="1466"
+            endLine="38"
+            endColumn="47"
+            endOffset="1494"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Field requires API level 23 (current min is %1$s): `android.security.keystore.KeyProperties#BLOCK_MODE_CBC`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="InlinedApi"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/utils/EncryptionUtils.kt"
+            line="39"
+            column="19"
+            startOffset="1519"
+            endLine="39"
+            endColumn="57"
+            endOffset="1557"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Field requires API level 23 (current min is %1$s): `android.security.keystore.KeyProperties#ENCRYPTION_PADDING_PKCS7`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/base/BaseFragment.kt"
+            line="164"
+            column="58"
+            startOffset="7193"
+            endLine="164"
+            endColumn="65"
+            endOffset="7200"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="24"/>
+        <location
+            file="$CORE/src/main/java/ua/privatbank/core/base/BaseFragment.kt"
+            line="326"
+            column="19"
+            startOffset="13669"
+            endLine="326"
+            endColumn="26"
+            endOffset="13676"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.lang.Iterable"/>
+            <entry
+                name="minSdk"
+                int="19"/>
+            <entry
+                name="requiresApi"
+                int="24"/>
+            <entry
+                name="name"
+                string="forEach"/>
+            <entry
+                name="message"
+                string="Call requires API level 24 (current min is %1$s): `java.lang.Iterable#forEach`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlEnabled"
+        severity="warning"
+        message="The project references RTL attributes, but does not explicitly enable or disable RTL support with `android:supportsRtl` in the manifest">
+        <location
+            file="$CORE/src/main/AndroidManifest.xml"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+</incidents>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/ul_teal_medium</color>
+    <color name="colorPrimaryDark">@color/ul_teal_medium</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="ul_red">#C02032</color>
+    <color name="ul_black">#000000</color>
+    <color name="ul_white">#FFFFFF</color>
+    <color name="ul_green_light">#92C83E</color>
+    <color name="ul_green_medium">#4C9E45</color>
+    <color name="ul_green_dark">#1E5632</color>
+    <color name="ul_teal_light">#59B7B3</color>
+    <color name="ul_teal_medium">#007584</color>
+    <color name="ul_teal_dark">#204B5A</color>
+    <color name="ul_blue_light">#67B1E2</color>
+    <color name="ul_blue_medium">#00518A</color>
+    <color name="ul_blue_dark">#0B3C61</color>
+</resources>

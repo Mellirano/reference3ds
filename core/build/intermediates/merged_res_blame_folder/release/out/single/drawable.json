@@ -1,0 +1,470 @@
+[
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_info.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ic_info.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/design_ic_visibility.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/design_fab_background.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/mtrl_ic_cancel.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/btn_radio_on_mtrl.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/pb_loader_form.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/pb_loader_form.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/f2d6c3e76192518567aed5369c08b1e4/transformed/core-1.3.1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/upsdk_cancel_bg.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/1a72bdb4e879a8dd9bbea927fa1f8283/transformed/update-4.0.1.300/res/drawable/upsdk_cancel_bg.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_keyboard_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/tooltip_frame_light.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/mtrl_ic_error.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/mtrl_ic_error.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/mtrl_popupmenu_background_dark.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/mtrl_popupmenu_background_dark.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/material_ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/material_ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/floating_button_gradient.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/floating_button_gradient.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_btn_check_material_anim.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/design_password_eye.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_arrow_back_24dp_core.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ic_arrow_back_24dp_core.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_search_toolbar_core_24dp.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ic_search_toolbar_core_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_btn_radio_material_anim.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/mtrl_dialog_background.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/f2d6c3e76192518567aed5369c08b1e4/transformed/core-1.3.1/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_arrow_back_white_24dp_core.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ic_arrow_back_white_24dp_core.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/material_ic_menu_arrow_up_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/material_ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/material_ic_edit_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/material_ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/material_cursor_drawable.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/material_cursor_drawable.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/pb_loader_camera_animated_line.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/pb_loader_camera_animated_line.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_close_white_24dp_core.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ic_close_white_24dp_core.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/avd_hide_password.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/pb_loader_camera_form.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/pb_loader_camera_form.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/mtrl_dropdown_arrow.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_signal_off.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ic_signal_off.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/material_ic_menu_arrow_down_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/material_ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ripple_circle_selector.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ripple_circle_selector.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/material_ic_clear_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/material_ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_close_black_24dp_core.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ic_close_black_24dp_core.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/test_custom_background.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/test_custom_background.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/mtrl_ic_arrow_drop_up.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/hwid_auth_button_background.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/eed90883412cd628565f9067c5895020/transformed/hwid-6.4.0.300/res/drawable/hwid_auth_button_background.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_clock_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/ic_clock_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_list_divider_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/pb_loader_animated_line.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/pb_loader_animated_line.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_close_secondary_24dp_core.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ic_close_secondary_24dp_core.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/material_ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/material_ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/mtrl_ic_arrow_drop_down.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/mtrl_popupmenu_background.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/mtrl_popupmenu_background.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/avd_show_password.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_vector_test.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/7ef8d05895c422d69c6a327475c8277a/transformed/appcompat-resources-1.2.0/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/f2d6c3e76192518567aed5369c08b1e4/transformed/core-1.3.1/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_done_white_24dp_core.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ic_done_white_24dp_core.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ripple_bg_core.xml",
+        "source": "/Users/valery/AndroidStudioProjects/reference3ds/core/src/main/res/drawable/ripple_bg_core.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/btn_radio_off_mtrl.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/ic_mtrl_checked_circle.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/design_ic_visibility_off.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/material_ic_calendar_black_24dp.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/01e6aff18bfd0513f6c5f9d5272214b4/transformed/material-1.3.0/res/drawable/material_ic_calendar_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/upsdk_third_download_bg.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/1a72bdb4e879a8dd9bbea927fa1f8283/transformed/update-4.0.1.300/res/drawable/upsdk_third_download_bg.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/f2d6c3e76192518567aed5369c08b1e4/transformed/core-1.3.1/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/valery/.gradle/caches/transforms-3/5b233679f816b2953e7876274d30aade/transformed/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    }
+]

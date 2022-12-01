@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/valery/AndroidStudioProjects/reference3ds/pbthemes"
+    name=":pbthemes"
+    type="LIBRARY"
+    maven="reference3ds:pbthemes:"
+    gradle="7.0.3"
+    buildFolder="build"
+    bootClassPath="/Users/valery/Library/Android/sdk/platforms/android-31/android.jar:/Users/valery/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

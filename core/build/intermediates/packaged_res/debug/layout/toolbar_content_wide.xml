@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:paddingBottom="8dp"
+    android:elevation="0dp"
+    app:elevation="0dp"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetStart="0dp">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ibBack"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/ripple_bg_core"
+                android:clickable="true"
+                android:contentDescription="@string/toolbar_backpress_description"
+                android:focusable="true"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:scaleType="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_arrow_back_white_24dp_core" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="marquee"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="?pb_primaryTextColor_attr"
+                android:textSize="@dimen/p24_textSize_normal"
+                app:layout_constraintEnd_toEndOf="@+id/rlLogo"
+                app:layout_constraintStart_toStartOf="@+id/rlLogo"
+                app:layout_constraintTop_toBottomOf="@+id/rlLogo"
+                tools:text="PrivatBank24" />
+
+            <RelativeLayout
+                android:id="@+id/rlLogo"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center_horizontal"
+                android:importantForAccessibility="no"
+                app:layout_constraintBottom_toBottomOf="@+id/ibBack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ibBack">
+
+                <ua.privatbank.core.toolbar.FloatingActionButtonOverlap
+                    android:id="@+id/ivLogo"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:importantForAccessibility="no"
+                    android:padding="0dp"
+                    android:src="@drawable/floating_button_gradient"
+                    android:visibility="visible"
+                    app:backgroundTint="?android:windowBackground"
+                    app:backgroundTintMode="src_in"
+                    app:elevation="2dp"
+                    app:fabCustomSize="44dp"
+                    app:maxImageSize="32dp"
+                    tools:src="?android:attr/alertDialogIcon" />
+
+                <ua.privatbank.core.toolbar.FloatingActionButtonOverlap
+                    android:id="@+id/ivLogoLarge"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@null"
+                    android:importantForAccessibility="no"
+                    android:padding="0dp"
+                    android:src="@drawable/floating_button_gradient"
+                    android:visibility="gone"
+                    app:backgroundTint="?android:windowBackground"
+                    app:backgroundTintMode="src_in"
+                    app:elevation="2dp"
+                    app:fabCustomSize="44dp"
+                    app:maxImageSize="44dp"
+                    tools:src="?android:attr/alertDialogIcon" />
+
+                <ua.privatbank.core.widgets.RoundImageView
+                    android:id="@+id/rivGradient"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/floating_button_gradient"
+                    android:elevation="2dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tvSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textColor="?pb_secondaryTextColor_attr"
+                android:textSize="@dimen/p24_textSize_small"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/rlLogo"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/rlLogo"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+                tools:text="channel_channels_subtitle_my_dialogs" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </FrameLayout>
+
+
+</com.google.android.material.appbar.AppBarLayout>

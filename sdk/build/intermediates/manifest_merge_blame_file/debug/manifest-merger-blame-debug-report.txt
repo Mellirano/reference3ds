@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ua.privatbank.threeds2" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:4:5-79
+9-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:4:22-76
+10    <uses-permission android:name="android.permission.BLUETOOTH" />
+10-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:5:5-68
+10-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:5:22-65
+11    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+11-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:6:5-76
+11-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:6:22-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:7:5-67
+12-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS" />
+13-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:9:5-76
+13-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:9:22-73
+14    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+14-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:10:5-77
+14-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:10:22-74
+15    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+15-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:11:5-86
+15-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:11:22-83
+16    <uses-permission android:name="android.permission.SEND_SMS" />
+16-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:12:5-67
+16-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:13:5-75
+17-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:13:22-72
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:15:5-81
+18-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:15:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:16:5-79
+19-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:16:22-76
+20
+21    <application>
+21-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:18:5-24:19
+22        <activity
+22-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:19:9-22:55
+23            android:name="ua.privatbank.threeds2.impl.ui.challenge.ChallengeActivity"
+23-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:20:13-64
+24            android:theme="@style/ThreeDSTheme"
+24-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:21:13-48
+25            android:windowSoftInputMode="adjustPan" />
+25-->/Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:22:13-52
+26    </application>
+27
+28</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="perm_attention">Увага!</string>
+    <string name="perm_group_camera">Камера</string>
+    <string name="perm_group_contacts">Контакти</string>
+    <string name="perm_group_location">Геодані</string>
+    <string name="perm_group_microphone">Мікрофон</string>
+    <string name="perm_group_phone">Телефон</string>
+    <string name="perm_group_storage">Пам\'ять</string>
+    <string name="perm_perm_controller_def_description_msg">Для роботи сервісу необхідні дозволи</string>
+    <string name="perm_perm_controller_def_msg">Для роботи сервісу необхідний дозвіл:</string>
+    <string name="text_settings">Налаштування</string>
+</resources>

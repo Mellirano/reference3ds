@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.3" type="partial_results">
+    <map id="AnnotateVersionCheck">
+        <entry
+            name="ua.privatbank.threeds2.utils.ExtentionsKt#ifLollipop(Lkotlin.jvm.functions.Function0;)"
+            string="api=21,lambda=0"/>
+        <entry
+            name="ua.privatbank.threeds2.utils.ExtentionsKt#ifKitkat(Lkotlin.jvm.functions.Function0;)"
+            string="api=19,lambda=0"/>
+        <entry
+            name="ua.privatbank.threeds2.utils.ExtentionsKt#isLollipop()"
+            string="api=21"/>
+        <entry
+            name="ua.privatbank.threeds2.utils.AdvancedOsUtils#isOSVersionSupported()"
+            string="api=19"/>
+        <entry
+            name="ua.privatbank.threeds2.utils.SafeDateCollector#version(I)"
+            string="parameter=0"/>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.layout.check_box"
+            file="$SDK/src/main/res/layout/check_box.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="7"
+            endColumn="7"
+            endOffset="290"/>
+        <location id="R.string.app_name"
+            file="$SDK/src/main/res/values/strings.xml"
+            line="2"
+            column="13"
+            startOffset="24"
+            endLine="2"
+            endColumn="28"
+            endOffset="39"/>
+        <location id="R.color.colorAccent"
+            file="$SDK/src/main/res/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="163"
+            endLine="5"
+            endColumn="30"
+            endOffset="181"/>
+        <location id="R.drawable.ic_eds_base_progress"
+            file="$SDK/src/main/res/drawable/ic_eds_base_progress.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="20"
+            endColumn="10"
+            endOffset="788"/>
+        <location id="R.drawable.ic_eds_progress"
+            file="$SDK/src/main/res/drawable/ic_eds_progress.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="56"
+            endColumn="19"
+            endOffset="2059"/>
+        <location id="R.drawable.ic_eds_success"
+            file="$SDK/src/main/res/drawable/ic_eds_success.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="21"
+            endColumn="10"
+            endOffset="795"/>
+        <location id="R.style.TextStyle"
+            file="$SDK/src/main/res/values/styles.xml"
+            line="14"
+            column="12"
+            startOffset="548"
+            endLine="14"
+            endColumn="28"
+            endOffset="564"/>
+        <location id="R.drawable.ic_eds_password"
+            file="$SDK/src/main/res/drawable/ic_eds_password.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="127"
+            endColumn="10"
+            endOffset="6817"/>
+        <entry
+            name="model"
+            string="color[cardview_light_background(R),colorPrimaryDark(U),errorColor(U),p24ColorPrimary(U),textColor(U),colorAccent(D),p24secondaryTextColor(U)],drawable[ic_eds_password_5(E),ic_eds_password_4(E),ic_eds_password_7(E),ic_eds_password_6(E),ic_info_outline(U),ic_eds_base_progress(D),ic_eds_progress_1(E),ic_eds_success(D),ic_eds_password(D),ic_eds_success_bg(D),ic_launcher_background(D),ic_eds_progress_2(E),ic_eds_progress_3(E),ic_eds_progress_4(E),ic_eds_progress(D),ic_eds_password_1(E),ic_eds_password_3(E),ic_eds_password_2(E),shadow_divider(U)],id[checkboxGroup(U),tvRadioTitle(U),headerText(R),tvInfoLabel(U),tvTitle(U),webChallengeView(U),radioGroup(U),switcher(U),textFontName(R),headingTextColor(R),tvExpandedContent(U),tvMessage(D),progressBar(D),progress_circular(D),cvExpandInfoLabel(U),btnResent(U),rlRoot(D),headingTextFontName(R),backgroundColor(R),imgPaymentSystem(U),tvChallengeInfoLabel(U),imgBank(U),llRoot(D),headingTextFontSize(R),textColor(R),vError(U),cvWhiteList(U),challengeContent(U),toolbar(U),tvChalengeInfo(U),textFontSize(R),btnCancel(U),llExtraInfo(U),llImagesBlock(U),mainContent(D),toolbarContainer(U),btnSubmit(U),edtCode(U),cvWhy(U)],layout[fragment_oob(U),fragment_base(U),radio_group(U),activity_challenge(U),fragment_otp(U),fragment_multy_select(U),check_box(D),activity_main(D),info_text_layout(U),fragment_single_select(U),fragment_http(U),progress_dialog_fragment_core1(U)],string[app_name(D)],style[Widget_MaterialComponents_Button(R),ThreeDSTheme(U),Theme_MaterialComponents_Light(R),Theme_AppCompat_Light_NoActionBar(R),Widget_AppCompat_Button_Borderless(R),TextStyle(D)];f^16^18^17^8^7^a^9,15^d^12^13^14,41^4,42^4^52^3d^b^0^50^3^4e^19,45^2^4^3,46^4,49^3^6,4a^4,4b^52,4f^51^3^1,53^4;;;"/>
+        <location id="R.drawable.ic_launcher_background"
+            file="$SDK/src/main/res/drawable/ic_launcher_background.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="170"
+            endColumn="10"
+            endOffset="5605"/>
+        <location id="R.layout.activity_main"
+            file="$SDK/src/main/res/layout/activity_main.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="18"
+            endColumn="53"
+            endOffset="780"/>
+        <location id="R.drawable.ic_eds_success_bg"
+            file="$SDK/src/main/res/drawable/ic_eds_success_bg.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="12"
+            endColumn="10"
+            endOffset="380"/>
+    </map>
+
+</incidents>

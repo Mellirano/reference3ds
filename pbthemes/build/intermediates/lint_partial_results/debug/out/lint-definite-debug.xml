@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.3" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk7 than 1.6.20 is available: 1.7.20">
+        <location
+            file="$PBTHEMES/build.gradle"
+            line="30"
+            column="20"
+            startOffset="878"
+            endLine="30"
+            endColumn="77"
+            endOffset="935"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.2.0 is available: 1.5.1">
+        <location
+            file="$PBTHEMES/build.gradle"
+            line="31"
+            column="20"
+            startOffset="955"
+            endLine="31"
+            endColumn="91"
+            endOffset="1026"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.3.0 is available: 1.7.0">
+        <location
+            file="$PBTHEMES/build.gradle"
+            line="32"
+            column="20"
+            startOffset="1046"
+            endLine="32"
+            endColumn="98"
+            endOffset="1124"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of junit:junit than 4.12 is available: 4.13.2">
+        <fix-replace
+            description="Change to 4.13.2"
+            family="Update versions"
+            oldString="4.12"
+            replacement="4.13.2"/>
+        <location
+            file="$PBTHEMES/build.gradle"
+            line="35"
+            column="24"
+            startOffset="1150"
+            endLine="35"
+            endColumn="42"
+            endOffset="1168"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.1 is available: 1.1.3">
+        <fix-replace
+            description="Change to 1.1.3"
+            family="Update versions"
+            oldString="1.1.1"
+            replacement="1.1.3"/>
+        <location
+            file="$PBTHEMES/build.gradle"
+            line="36"
+            column="31"
+            startOffset="1199"
+            endLine="36"
+            endColumn="62"
+            endOffset="1230"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.2.0 is available: 3.4.0">
+        <fix-replace
+            description="Change to 3.4.0"
+            family="Update versions"
+            oldString="3.2.0"
+            replacement="3.4.0"/>
+        <location
+            file="$PBTHEMES/build.gradle"
+            line="37"
+            column="31"
+            startOffset="1261"
+            endLine="37"
+            endColumn="75"
+            endOffset="1305"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,79 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:1:1-25:12
+	package
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:2:5-37
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.LOCAL_MAC_ADDRESS
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:10:22-74
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:11:5-86
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:11:22-83
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:16:22-76
+application
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:18:5-24:19
+activity#ua.privatbank.threeds2.impl.ui.challenge.ChallengeActivity
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:19:9-22:55
+	android:windowSoftInputMode
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:22:13-52
+	android:theme
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:21:13-48
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml:20:13-64
+uses-sdk
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/sdk/src/main/AndroidManifest.xml

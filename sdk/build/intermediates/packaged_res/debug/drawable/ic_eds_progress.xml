@@ -1,0 +1,56 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+  <aapt:attr name="android:drawable">
+    <vector
+        android:width="128dp"
+        android:height="128dp"
+        android:viewportWidth="128"
+        android:viewportHeight="128">
+      <path
+          android:name="p_green_1"
+          android:pathData="M36,62L92,62A8,8 0,0 1,100 70L100,102A8,8 0,0 1,92 110L36,110A8,8 0,0 1,28 102L28,70A8,8 0,0 1,36 62z"
+          android:strokeWidth="6"
+          android:fillColor="#00000000"
+          android:strokeColor="#A2D360"
+          android:fillType="nonZero"/>
+    </vector>
+  </aapt:attr>
+
+  <target android:name="p_green_1">
+    <aapt:attr name="android:animation">
+      <set>
+        <objectAnimator
+            android:duration="1100"
+            android:propertyName="trimPathEnd"
+            android:repeatCount="-1"
+            android:valueFrom="0.03"
+            android:valueTo="0.78"
+            android:valueType="floatType">
+          <aapt:attr name="android:interpolator">
+            <pathInterpolator android:pathData="C0.2,0 0.1,1 0.5,0.96 C 0.96666666666,0.96 0.99333333333,1 1,1" />
+          </aapt:attr>
+        </objectAnimator>
+        <objectAnimator
+            android:duration="1100"
+            android:propertyName="trimPathStart"
+            android:repeatCount="-1"
+            android:valueFrom="0"
+            android:valueTo="0.75"
+            android:valueType="floatType">
+          <aapt:attr name="android:interpolator">
+            <pathInterpolator android:pathData="L0.5,0 C 0.7,0 0.6,1 1,1" />
+          </aapt:attr>
+        </objectAnimator>
+        <objectAnimator
+            android:duration="1100"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="trimPathOffset"
+            android:repeatCount="-1"
+            android:valueFrom="0"
+            android:valueTo="0.25"
+            android:valueType="floatType" />
+      </set>
+    </aapt:attr>
+  </target>
+
+</animated-vector>

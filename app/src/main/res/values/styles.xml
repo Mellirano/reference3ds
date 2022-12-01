@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#797E79</item>
+        <item name="colorPrimaryDark">#4E504C</item>
+        <item name="colorAccent">#7C807C</item>
+        <item name="actionBarStyle">@style/UlActionBar</item>
+        <item name="actionBarTheme">@style/UlApp.ActionBarTheme</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="UlActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/UlTitleTextStyle</item>
+    </style>
+
+    <style name="UlTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/ul_white</item>
+    </style>
+
+    <style name="UlApp.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/ul_white</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

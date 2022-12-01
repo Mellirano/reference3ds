@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:orientation="vertical">
+
+    <CheckedTextView
+        android:id="@+id/tvInfoLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.04"
+        android:lineSpacingExtra="8sp"
+        android:textColor="@color/p24ColorPrimary"
+        android:textSize="16sp"
+        android:text="test2"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvExpandedContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.04"
+        android:lineSpacingExtra="8sp"
+        android:padding="8dp"
+        android:text="test2"
+        android:textColor="@color/p24secondaryTextColor"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+</LinearLayout>

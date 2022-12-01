@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:1:1-29:12
+	package
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:2:5-33
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:9:22-63
+application
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:11:5-28:19
+receiver#ua.privatbank.core.otpretriever.OtpReceiver
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:12:9-18:20
+	android:exported
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:13:13-71
+intent-filter#action:name:com.google.android.gms.auth.api.phone.SMS_RETRIEVED
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:15:13-17:29
+action#com.google.android.gms.auth.api.phone.SMS_RETRIEVED
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:16:17-94
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:16:25-91
+receiver#ua.privatbank.core.otpretriever.HuaweiSmsBroadCastReceiver
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:20:9-26:20
+	android:exported
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:21:13-86
+intent-filter#action:name:com.huawei.hms.support.sms.common.ReadSmsConstant.READ_SMS_BROADCAST_ACTION
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:23:13-25:29
+action#com.huawei.hms.support.sms.common.ReadSmsConstant.READ_SMS_BROADCAST_ACTION
+ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:24:17-118
+	android:name
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml:24:25-115
+uses-sdk
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+		ADDED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml
+		INJECTED from /Users/valery/AndroidStudioProjects/reference3ds/core/src/main/AndroidManifest.xml

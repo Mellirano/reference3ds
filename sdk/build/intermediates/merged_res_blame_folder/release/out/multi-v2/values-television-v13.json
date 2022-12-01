@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/valery/AndroidStudioProjects/reference3ds/sdk/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-television-v13/values-television-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/valery/.gradle/caches/transforms-3/1a72bdb4e879a8dd9bbea927fa1f8283/transformed/update-4.0.1.300/res/values-television-v13/values-television-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,162",
+                        "endColumns": "52,53,52",
+                        "endOffsets": "103,157,210"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/valery/AndroidStudioProjects/reference3ds/sdk/build/intermediates/merged_res/release/values-television-v13/values-television-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/valery/.gradle/caches/transforms-3/1a72bdb4e879a8dd9bbea927fa1f8283/transformed/update-4.0.1.300/res/values-television-v13/values-television-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,162",
+                        "endColumns": "52,53,52",
+                        "endOffsets": "103,157,210"
+                    }
+                }
+            ]
+        }
+    ]
+}

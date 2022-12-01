@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/valery/AndroidStudioProjects/reference3ds/core/build/intermediates/merged_res/release/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/valery/.gradle/caches/transforms-3/16c6db001af38a5574f4cc61d0f91a42/transformed/appcompat-1.2.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

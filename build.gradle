@@ -1,0 +1,132 @@
+ext {
+    archLifecycleVersion = '1.1.1'
+    supportLibraryVersion = '28.0.0'
+    playServicesVersion = '15.0.1'
+    gsonVersion = '2.8.5'
+    okhttpVersion = '3.11.0'
+    junitVersion = '4.12'
+    runnerVersion = '1.0.2'
+    espressoVersion = '3.0.2'
+    hamcrestVersion = '1.3'
+    uiAutomatorVersion = '2.1.3'
+    androidXVersion = '3.1.0'
+    mockitoVersion = '2.7.22'
+    multidex_version = '1.0.3'
+
+    compileSdkVersion = 31
+    minSdkVersion = 19
+    targetSdkVersion = 31
+    multiDexVersion = '2.0.1'
+
+    aacVersion = "1.1.1"
+    allureVersion = '2.1.2'
+    annotation = '1.2.0'
+    appcompatVersion = '1.2.0'
+
+    biometricVersion = '1.0.1'
+    browserVersion = '1.3.0'
+    cardviewVersion = '1.0.0'
+    constraintlayoutVersion = '2.0.4'
+
+    coreTestingVersion = "2.1.0"
+    coroutinesVersion = '1.4.3'
+    crashlyticsVersion = '2.10.1'
+    daggerVersion = '2.13'
+
+    espressoCoreVersion = "3.3.0"
+    exifinterfaceVersion = "1.3.2"
+    facebookVersion = '9.1.0'
+    firebaseBomVersion = '26.1.0'
+
+    flexboxVersion = '3.0.0'
+    glideVersion = "4.9.0"
+    googleAuthApiPhone = '17.4.0'
+    googleGmsPlayServicesAnalytics = '17.0.0'
+
+    googleGmsPlayServicesBaseVersion = '17.4.0'
+    googleGmsPlayServicesLocationVersion = '17.0.0'
+    googleGmsPlayServicesMapsVersion = '17.0.0'
+    gsonVersion = '2.8.5'
+
+    huaweiPushVersion = "6.3.0.302"
+    jsonVersion = "20180813"
+    jUnitVersion = '4.13.2'
+    lifecycle_extensions = '2.2.0'
+
+    lifecycleVersion = '2.2.0'
+    lifecycleViewmodelKtxVersion = '2.3.1'
+    loggerVersion = '2.1.1'
+    lottie = "3.5.0"
+
+    mapUtils='2.2.0'
+    materialVersion = '1.3.0'
+    mlkinBarcodeScanningVersion = '16.0.3'
+    mockitokotlinVersion = "2.2.0"
+
+    mockkVersion = '1.10.6'
+    mokitoVersion = '3.8.0'
+    okHttpVersion = '3.11.0'
+    photoViewVersion = '2.1.3'
+
+    playCoreVersion = '1.8.1'
+    powerMockApiMokito2Version = "2.0.9"
+    powerMockVersion = "2.0.9"
+    recyclerviewVersion = '1.1.0'
+
+    roomVersion = '2.4.2'
+    rxAndroidVersion = '2.1.0'
+    rxJavaVersion = '2.2.12'
+    stethoVersion = '1.5.0'
+
+    stethoVersion = '1.5.0'
+    swiperefreshlayoutVersion = '1.1.0'
+    testOrchestrator = "1.3.0-rc01"
+    testRulesVersion = "1.3.0"
+
+    testRunner = "1.3.0"
+    uiAutomatorVersion = '2.2.0'
+    universalimageloaderVersion = '1.9.5'
+    workManagerVersion = '2.4.0'
+
+    zxingAndroidEmbedded = '3.3.0'
+    zxingVersion = '3.3.0'
+    workRuntimeKtxVersion = '2.7.1'
+    tapAndPayVersion = '18.1.0'
+    androidxCoreVersion = '1.6.0'
+
+    huaweiHms = '6.4.0.300'
+    coreLibrary = '1.1.5'
+}
+
+buildscript {
+    ext.kotlin_version = '1.6.20'
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://plugins.gradle.org/m2/"}
+        maven { url 'https://developer.huawei.com/repo/'}
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.20"
+        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlin_version"
+        classpath 'com.android.tools.build:gradle:7.0.3'
+        classpath 'com.google.gms:google-services:3.1.1'
+        classpath 'org.jacoco:org.jacoco.core:0.7.9'
+        classpath 'org.codehaus.groovy:groovy-all:2.4.12'
+        classpath 'com.dicedmelon.gradle:jacoco-android:0.1.2'
+        classpath 'com.huawei.agconnect:agcp:1.6.3.300'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {url 'https://developer.huawei.com/repo/'}
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

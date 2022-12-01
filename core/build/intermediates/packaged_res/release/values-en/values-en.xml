@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Core Module</string>
+    <string name="check_connection_and_retry">Check the connection and try again</string>
+    <string name="choose_app_to_open">Select an application to open the file</string>
+    <string name="core_understand">Got it</string>
+    <string name="downloading_file">File downloading</string>
+    <string name="edit_photo_continue">Continue</string>
+    <string name="edit_photo_title">Photo editor</string>
+    <string name="has_internet_connection">Connected!</string>
+    <string name="no">No</string>
+    <string name="no_internet_connection">No connection to the Internet</string>
+    <string name="operation_failed_please_try_again_later">An error occurred when performing the transaction. Please, try again later.</string>
+    <string name="operation_not_confirmed">Operation has not been confirmed</string>
+    <string name="photo_description">Move and rotate the photo so that your face is in the frame</string>
+    <string name="retry">Try again</string>
+    <string name="toolbar_backpress_description">Back</string>
+    <string name="toolbar_cross_description">Close</string>
+    <string name="waiting_internet_connection">Waiting connection to the Internet</string>
+    <string name="yes">Yes</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/pb_foregroundColor_attr">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ToolBarStyle"
+            app:contentInsetLeft="@dimen/p24_margin_normal"
+            app:contentInsetStart="@dimen/p24_margin_normal"
+            app:contentInsetStartWithNavigation="0dp"
+            app:navigationIcon="@drawable/ic_arrow_back_24dp_core"
+            app:subtitleTextAppearance="@style/ToolbarSubtitleStyle"
+            app:titleMarginStart="@dimen/p24_margin_small"
+            app:titleTextAppearance="@style/ToolbarTitleStyle"
+            tools:subtitle="Subtitle text"
+            tools:title="Title text">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:id="@+id/rlSearch"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="?attr/pb_foregroundColor_attr"
+            android:visibility="invisible">
+
+            <ImageView
+                android:contentDescription="@string/toolbar_backpress_description"
+                android:id="@+id/ivCloseSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/p24_margin_small"
+                android:layout_marginLeft="@dimen/p24_margin_small"
+                android:background="?selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="@dimen/p24_margin_small"
+                app:srcCompat="@drawable/ic_arrow_back_24dp_core" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/p24_margin_large"
+                android:layout_marginLeft="@dimen/p24_margin_large"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:layout_toStartOf="@+id/ivClear"
+                android:layout_toLeftOf="@+id/ivClear"
+                android:layout_toEndOf="@+id/ivCloseSearch"
+                android:layout_toRightOf="@+id/ivCloseSearch"
+                android:background="?attr/pb_transparentColor_attr"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:padding="0dp"
+                android:singleLine="true"
+                android:textColor="?attr/pb_focusTextColor_attr"
+                android:textColorHint="?attr/pb_disabledTextColor_attr"
+                android:textSize="@dimen/p24_textSize_large" />
+
+            <ImageView
+                android:id="@+id/ivClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/p24_margin_small"
+                android:layout_marginLeft="@dimen/p24_margin_small"
+                android:layout_marginEnd="@dimen/p24_margin_small"
+                android:layout_marginRight="@dimen/p24_margin_small"
+                android:background="?selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="@dimen/p24_margin_small"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_close_secondary_24dp_core"
+                tools:visibility="visible" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</com.google.android.material.appbar.AppBarLayout>

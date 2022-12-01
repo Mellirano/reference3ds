@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.3" type="incidents">
+
+    <incident
+        id="ProtectedPermissions"
+        severity="error"
+        message="Permission is only granted to system apps">
+        <location
+            file="$SDK/src/main/AndroidManifest.xml"
+            line="9"
+            column="22"
+            startOffset="420"
+            endLine="9"
+            endColumn="73"
+            endOffset="471"/>
+    </incident>
+
+    <incident
+        id="ProtectedPermissions"
+        severity="error"
+        message="Permission is only granted to system apps">
+        <location
+            file="$SDK/src/main/AndroidManifest.xml"
+            line="11"
+            column="22"
+            startOffset="573"
+            endLine="11"
+            endColumn="83"
+            endOffset="634"/>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more">
+        <location
+            file="$SDK/src/main/res/drawable/ic_eds_password.xml"
+            line="3"
+            column="20"
+            startOffset="135"
+            endLine="3"
+            endColumn="25"
+            endOffset="140"/>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more">
+        <location
+            file="$SDK/src/main/res/drawable/ic_eds_success_bg.xml"
+            line="2"
+            column="20"
+            startOffset="86"
+            endLine="2"
+            endColumn="25"
+            endOffset="91"/>
+    </incident>
+
+    <incident
+        id="ObsoleteLayoutParam"
+        severity="warning"
+        message="Invalid layout param in a `FrameLayout`: `layout_alignParentTop`">
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="20"
+            column="13"
+            startOffset="727"
+            endLine="20"
+            endColumn="49"
+            endOffset="763"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Cancel&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="29"
+            column="13"
+            startOffset="1110"
+            endLine="29"
+            endColumn="34"
+            endOffset="1131"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `ScrollView` layout or its `FrameLayout` parent is unnecessary">
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="39"
+            column="10"
+            startOffset="1375"
+            endLine="39"
+            endColumn="20"
+            endOffset="1385"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="59"
+            column="22"
+            startOffset="2122"
+            endLine="59"
+            endColumn="31"
+            endOffset="2131"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="66"
+            column="22"
+            startOffset="2419"
+            endLine="66"
+            endColumn="31"
+            endOffset="2428"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="111"
+            column="21"
+            startOffset="4597"
+            endLine="111"
+            endColumn="44"
+            endOffset="4620"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Submit&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="134"
+            column="21"
+            startOffset="5867"
+            endLine="134"
+            endColumn="42"
+            endOffset="5888"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Resent code&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="153"
+            column="21"
+            startOffset="6863"
+            endLine="153"
+            endColumn="47"
+            endOffset="6889"/>
+    </incident>
+
+    <incident
+        id="ObsoleteLayoutParam"
+        severity="warning"
+        message="Invalid layout param in a `FrameLayout`: `layout_alignParentTop`">
+        <location
+            file="$SDK/src/main/res/layout/fragment_http.xml"
+            line="17"
+            column="13"
+            startOffset="627"
+            endLine="17"
+            endColumn="49"
+            endOffset="663"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Cancel&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout/fragment_http.xml"
+            line="27"
+            column="13"
+            startOffset="1050"
+            endLine="27"
+            endColumn="34"
+            endOffset="1071"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_multy_select.xml"
+            line="18"
+            column="9"
+            startOffset="678"
+            endLine="18"
+            endColumn="32"
+            endOffset="701"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_oob.xml"
+            line="15"
+            column="9"
+            startOffset="571"
+            endLine="15"
+            endColumn="32"
+            endOffset="594"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_otp.xml"
+            line="24"
+            column="9"
+            startOffset="899"
+            endLine="24"
+            endColumn="32"
+            endOffset="922"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="$SDK/src/main/res/layout/fragment_otp.xml"
+            line="26"
+            column="6"
+            startOffset="932"
+            endLine="26"
+            endColumn="14"
+            endOffset="940"/>
+    </incident>
+
+    <incident
+        id="TextFields"
+        severity="warning"
+        message="This text field does not specify an `inputType`">
+        <fix-attribute
+            description="Set inputType"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="inputType"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_otp.xml"
+            line="26"
+            column="6"
+            startOffset="932"
+            endLine="26"
+            endColumn="14"
+            endOffset="940"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;CODE&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout/fragment_otp.xml"
+            line="35"
+            column="9"
+            startOffset="1276"
+            endLine="35"
+            endColumn="28"
+            endOffset="1295"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="$SDK/src/main/res/layout/fragment_single_select.xml"
+            line="19"
+            column="9"
+            startOffset="734"
+            endLine="19"
+            endColumn="32"
+            endOffset="757"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;test2&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout/info_text_layout.xml"
+            line="18"
+            column="9"
+            startOffset="666"
+            endLine="18"
+            endColumn="29"
+            endOffset="686"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;test2&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout/info_text_layout.xml"
+            line="29"
+            column="9"
+            startOffset="1034"
+            endLine="29"
+            endColumn="29"
+            endOffset="1054"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `LinearLayout` layout or its `RelativeLayout` parent is possibly unnecessary">
+        <location
+            file="$SDK/src/main/res/layout/progress_dialog_fragment_core1.xml"
+            line="7"
+            column="6"
+            startOffset="243"
+            endLine="7"
+            endColumn="18"
+            endOffset="255"/>
+    </incident>
+
+    <incident
+        id="ObsoleteLayoutParam"
+        severity="warning"
+        message="Invalid layout param in a `FrameLayout`: `layout_alignParentTop`">
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="20"
+            column="13"
+            startOffset="727"
+            endLine="20"
+            endColumn="49"
+            endOffset="763"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Cancel&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="29"
+            column="13"
+            startOffset="1110"
+            endLine="29"
+            endColumn="34"
+            endOffset="1131"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `ScrollView` layout or its `FrameLayout` parent is unnecessary">
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="39"
+            column="10"
+            startOffset="1375"
+            endLine="39"
+            endColumn="20"
+            endOffset="1385"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="59"
+            column="22"
+            startOffset="2122"
+            endLine="59"
+            endColumn="31"
+            endOffset="2131"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="66"
+            column="22"
+            startOffset="2419"
+            endLine="66"
+            endColumn="31"
+            endOffset="2428"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="114"
+            column="25"
+            startOffset="4673"
+            endLine="114"
+            endColumn="48"
+            endOffset="4696"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Submit&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="145"
+            column="25"
+            startOffset="6356"
+            endLine="145"
+            endColumn="46"
+            endOffset="6377"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Resent code&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="166"
+            column="25"
+            startOffset="7477"
+            endLine="166"
+            endColumn="51"
+            endOffset="7503"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_otp.xml"
+            line="24"
+            column="9"
+            startOffset="899"
+            endLine="24"
+            endColumn="32"
+            endOffset="922"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_otp.xml"
+            line="26"
+            column="6"
+            startOffset="932"
+            endLine="26"
+            endColumn="14"
+            endOffset="940"/>
+    </incident>
+
+    <incident
+        id="TextFields"
+        severity="warning"
+        message="This text field does not specify an `inputType`">
+        <fix-attribute
+            description="Set inputType"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="inputType"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_otp.xml"
+            line="26"
+            column="6"
+            startOffset="932"
+            endLine="26"
+            endColumn="14"
+            endOffset="940"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;CODE&quot;, should use `@string` resource">
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_otp.xml"
+            line="35"
+            column="9"
+            startOffset="1278"
+            endLine="35"
+            endColumn="28"
+            endOffset="1297"/>
+    </incident>
+
+    <incident
+        id="HardwareIds"
+        severity="warning"
+        message="Using `getMacAddress` to get device identifiers is not recommended">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="172"
+            column="28"
+            startOffset="7413"
+            endLine="172"
+            endColumn="43"
+            endOffset="7428"/>
+    </incident>
+
+    <incident
+        id="HardwareIds"
+        severity="warning"
+        message="Using `getAddress` to get device identifiers is not recommended">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="203"
+            column="28"
+            startOffset="8998"
+            endLine="203"
+            endColumn="47"
+            endOffset="9017"/>
+    </incident>
+
+    <incident
+        id="HardwareIds"
+        severity="warning"
+        message="Using `SERIAL` to get device identifiers is not recommended">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="227"
+            column="30"
+            startOffset="9863"
+            endLine="227"
+            endColumn="36"
+            endOffset="9869"/>
+    </incident>
+
+    <incident
+        id="HardwareIds"
+        severity="warning"
+        message="Using `getDeviceId` to get device identifiers is not recommended">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="373"
+            column="80"
+            startOffset="17611"
+            endLine="373"
+            endColumn="105"
+            endOffset="17636"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(parameter=0)`">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/DeviceDataCollector.kt"
+            line="469"
+            column="17"
+            startOffset="20410"
+            endLine="469"
+            endColumn="24"
+            endOffset="20417"/>
+    </incident>
+
+    <incident
+        id="SupportAnnotationUsage"
+        severity="error"
+        message="This annotation does not apply for type android.graphics.drawable.Drawable; expected int or long">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/Extentions.kt"
+            line="90"
+            column="22"
+            startOffset="2898"
+            endLine="90"
+            endColumn="34"
+            endOffset="2910"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/Extentions.kt"
+            line="100"
+            column="9"
+            startOffset="3329"
+            endLine="100"
+            endColumn="68"
+            endOffset="3388"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.LOLLIPOP, lambda=0)`">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/Extentions.kt"
+            line="127"
+            column="5"
+            startOffset="4128"
+            endLine="127"
+            endColumn="15"
+            endOffset="4138"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.KITKAT, lambda=0)`">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/Extentions.kt"
+            line="133"
+            column="12"
+            startOffset="4263"
+            endLine="133"
+            endColumn="20"
+            endOffset="4271"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/Extentions.kt"
+            line="134"
+            column="9"
+            startOffset="4302"
+            endLine="134"
+            endColumn="60"
+            endOffset="4353"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=Build.VERSION_CODES.LOLLIPOP)`">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/Extentions.kt"
+            line="145"
+            column="5"
+            startOffset="4517"
+            endLine="145"
+            endColumn="15"
+            endOffset="4527"/>
+    </incident>
+
+    <incident
+        id="AnnotateVersionCheck"
+        severity="warning"
+        message="This method should be annotated with `@ChecksSdkIntAtLeast(api=android.os.Build.VERSION_CODES.KITKAT)`">
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/AdvancedOSUtils.kt"
+            line="40"
+            column="9"
+            startOffset="943"
+            endLine="40"
+            endColumn="29"
+            endOffset="963"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-data conditional="true"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/utils/AdvancedOSUtils.kt"
+            line="41"
+            column="16"
+            startOffset="992"
+            endLine="41"
+            endColumn="43"
+            endOffset="1019"/>
+    </incident>
+
+    <incident
+        id="ApplySharedPref"
+        severity="warning"
+        message="Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background">
+        <fix-replace
+            description="Replace commit() with apply()"
+            oldPattern="(commit)\s*\("
+            replacement="apply"/>
+        <location
+            file="$SDK/src/main/java/ua/privatbank/threeds2/сrypto/cryptoUtils.kt"
+            line="51"
+            column="16"
+            startOffset="1708"
+            endLine="51"
+            endColumn="24"
+            endOffset="1716"/>
+    </incident>
+
+    <incident
+        id="TrustAllX509TrustManager"
+        severity="warning"
+        message="`checkClientTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers">
+        <location
+            file="ua/privatbank/core/network/TrustAllCerts$1.class"/>
+    </incident>
+
+    <incident
+        id="TrustAllX509TrustManager"
+        severity="warning"
+        message="`checkServerTrusted` is empty, which could cause insecure network traffic due to trusting arbitrary TLS/SSL certificates presented by peers">
+        <location
+            file="ua/privatbank/core/network/TrustAllCerts$1.class"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.code.gson:gson than 2.8.5 is available: 2.9.1">
+        <location
+            file="$SDK/build.gradle"
+            line="43"
+            column="20"
+            startOffset="1199"
+            endLine="43"
+            endColumn="72"
+            endOffset="1251"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-location than 15.0.1 is available: 21.0.0">
+        <fix-replace
+            description="Change to 21.0.0"
+            family="Update versions"
+            oldString="15.0.1"
+            replacement="21.0.0"/>
+        <location
+            file="$SDK/build.gradle"
+            line="44"
+            column="20"
+            startOffset="1271"
+            endLine="44"
+            endColumn="74"
+            endOffset="1325"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of junit:junit than 4.12 is available: 4.13.2">
+        <fix-replace
+            description="Change to 4.13.2"
+            family="Update versions"
+            oldString="4.12"
+            replacement="4.13.2"/>
+        <location
+            file="$SDK/build.gradle"
+            line="49"
+            column="24"
+            startOffset="1484"
+            endLine="49"
+            endColumn="42"
+            endOffset="1502"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.nimbusds:nimbus-jose-jwt than 8.19 is available: 9.25.4">
+        <fix-replace
+            description="Change to 9.25.4"
+            family="Update versions"
+            oldString="8.19"
+            replacement="9.25.4"/>
+        <location
+            file="$SDK/build.gradle"
+            line="53"
+            column="20"
+            startOffset="1737"
+            endLine="53"
+            endColumn="55"
+            endOffset="1772"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@android:color/white` with a theme that also paints a background (inferred theme is `@style/ThreeDSTheme`)">
+        <location
+            file="$SDK/src/main/res/layout/activity_challenge.xml"
+            line="5"
+            column="5"
+            startOffset="199"
+            endLine="5"
+            endColumn="46"
+            endOffset="240"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@android:color/white` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="$SDK/src/main/res/layout/fragment_base.xml"
+            line="7"
+            column="5"
+            startOffset="306"
+            endLine="7"
+            endColumn="46"
+            endOffset="347"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@android:color/white` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="$SDK/src/main/res/layout-land/fragment_base.xml"
+            line="7"
+            column="5"
+            startOffset="306"
+            endLine="7"
+            endColumn="46"
+            endOffset="347"/>
+    </incident>
+
+</incidents>
